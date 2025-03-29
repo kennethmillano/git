@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+#login-section {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: lightgray;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#login-form input, #login-form select, #login-form button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px  0px ;
+    border-radius: 8px;
+    border-style:hidden
+}
+button {
+    color: blue;
+    cursor: pointer;
+    border-style:groove;
+    
+    
+}
+button:hover {
+    background-color: skyblue;
+    transition: 0.7s;
+
+}
+
+#student-records table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#student-records th, #student-records td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+
+#teacher-dashboard {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    width: 80%;
+    border-radius: 5px;
+}
+
+#teacher-dashboard button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
